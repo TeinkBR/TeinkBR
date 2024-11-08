@@ -1,10 +1,20 @@
-- 👋 Hi, I’m Jingyi (@TeinkBR), 
-- 👀 I’m interested in Nuclear Theory, Quantum Computing, Simulation, and Condensed Matter Field Theory.
-- 🌱 I’m currently learning to programme in VHDL/Verilog for State Estimation for Gaussian noise.
-- 💞️ I’m looking to collaborate on all the above themes
-- 📫 you can reach me at explorertank1997@hotmail.com
 
-<!---
-TeinkBR/TeinkBR is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# 👋 Servus! This is Jingyi 
+
+Welcome to my GitHub profile! I’m very interested in **many body physics**.
+
+## 🧪 About Me
+- **Education**: I hold a B.Sc. in Physics from Michigan State University (MSU) and am currently pursuing an M.Sc. in Physics at the University of Stuttgart.
+- **Research Interests**: I used to work on **Josephson junctions**, **Simulation**. I have a experience in **VHDL programming** on **Zynq 7000 FPGA***.
+
+- **Languages**: Fluent in **English, German, Russian**, and **Chinese**.
+
+
+
+## 📫 Contact Me
+- **Email**: [explorertank1997@hotmail.com](mailto:explorertank1997@hotmail.com)
+- **GitHub**: [TeinkBR](https://github.com/TeinkBR)
+- **LinkedIn**: [Jingyi Li](https://www.linkedin.com/in/jingyi-li-87893213a)
+
+## 🎻 Hobbies & Interests
+**Ice-skating**, **skiing**, **bouldering**.
