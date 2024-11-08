@@ -1,13 +1,13 @@
 
 # 👋 Servus! This is Jingyi 
 
-Welcome to my GitHub profile! I’m very interested in **many body physics**.
+Welcome to my GitHub profile!
 
 ## 🧪 About Me
-- **Education**: I hold a B.Sc. in Physics from Michigan State University (MSU) and am currently pursuing an M.Sc. in Physics at the University of Stuttgart.
-- **Research Interests**: I used to work on **Josephson junctions**, **Simulation**. I have a experience in **VHDL programming** on **Zynq 7000 FPGA***.
+- **Education**: B.Sc. in Physics from Michigan State University (MSU).
+- **Research Interests**: **Josephson junctions**, **Simulation**. **VHDL programming**.
 
-- **Languages**: Fluent in **English, German, Russian**, and **Chinese**.
+- **Languages**: **English, German, Russian**, **Chinese**.
 
 
 
