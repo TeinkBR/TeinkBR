@@ -1,68 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Jingyi Li – Academic Profile</title>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat:wght@600;800&display=swap" rel="stylesheet" />
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jingyi Li – Profile</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <nav class="navbar">
       <div class="logo">Jingyi Li</div>
       <ul class="nav-links">
-        <a href="assets/cv.pdf" target="_blank" rel="noopener">
-        <li><a href="research.html">Research</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="code.html">Code</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#profile">Profile / CV</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Hello, I’m Jingyi</h1>
-      <p>Experimental physics student focusing on low dimensional experimental physics </p>
-      <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener">View My CV </a>
-      </div>
-  </section>
-
-  <main class="layout">
-    <aside class="sidebar">
-      <img src="profile.jpg" alt="Jingyi" class="avatar" />
-      <h2>Quick Links</h2>
-      <ul>
-        <li><a href="https://orcid.org/0000-0000" target="_blank">ORCID</a></li>
-        <li><a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
-        <li><a href="https://github.com/username" target="_blank">GitHub</a></li>
-        <li><a href="mailto:you@example.com">Email Me</a></li>
-      </ul>
-    </aside>
-
-    <section class="content">
-      <h2>Research Interests</h2>
-      <p>My work focuses on condensed matter physics and quantum many body simulation.</p>
-
-      <h2>Selected Projects</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Project One</h3>
-          <p>Exploring variational quantum algorithms for condensed matter.</p>
-          <a href="https://github.com/username/project1">View Code →</a>
-        </div>
-        <div class="card">
-          <h3>Project Two</h3>
-          <p>Hamiltonian analysis of condensed matter systems.</p>
-          <a href="https://github.com/username/project2">View Code →</a>
-        </div>
-      </div>
-    </section>
+  <main id="profile" class="content">
+    <h1>Profile &amp; Research Overview</h1>
+    <p>
+      I led a project at the Facility for Rare Isotope Beams, applying the Reduced Basis Method to streamline high-dimensional nuclear many-body interactions into manageable two-level systems. This work, in collaboration with the Theory Alliance at FRIB, contributed to a chapter in <em>Quantum Computing Applications in Nuclear Physics</em>, where RBM reductions enabled Bloch sphere representations and quantum gate assembly for Qiskit-based simulations.
+    </p>
+    <p>
+      At the Center of Applied Quantum Technology in Stuttgart, I designed VHDL/Verilog PID controllers on Xilinx FPGAs for optical levitation, and at ATF Cooling GmbH, I built Red Pitaya FPGA controllers with high-speed ADC/DAC interfaces to stabilize industrial chillers using adaptive algorithms.
+    </p>
+    <p>
+      In experimental nanofabrication, I worked in cleanrooms to create Josephson junctions, mastering photolithography, etching, sputtering, and ion milling. I performed DC Josephson measurements with SQUIDs, investigating Fraunhofer-pattern phase shifts and mechanisms of critical current suppression such as spin-triplet pairing and ferromagnetic exchange.
+    </p>
+    <p>
+      My computational physics experience includes training message-passing neural networks at the Institute for Computer Physics in Stuttgart to predict material properties, demonstrating how graph neural networks can rival traditional quantum simulations in efficiency and accuracy.
+    </p>
   </main>
 
   <footer>
