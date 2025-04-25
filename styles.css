@@ -87,12 +87,12 @@ body {
 .timeline {
   position: relative;
   margin: 2rem 0;
-  padding-left: 3rem;
+  padding-left: 5rem; /* Increased to add more spacing */
 }
 .timeline::before {
   content: '';
   position: absolute;
-  left: 1.5rem;
+  left: 2.5rem; /* Shifted right for better alignment */
   top: 0;
   bottom: 0;
   width: 4px;
@@ -100,18 +100,19 @@ body {
 }
 .timeline-item {
   position: relative;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  padding-left: 3rem; /* Space between line and content */
 }
 .timeline-time {
   position: absolute;
-  left: -2rem;
+  left: -3rem; /* Adjusted to move years further left */
   top: 0;
   font-family: var(--font-sans);
   font-weight: 700;
   color: var(--clr-timeline);
 }
 .timeline-content {
-  padding-left: 1rem;
+  /* No extra left padding needed; inherent grid provides spacing */
   line-height: 1.4;
 }
 
