@@ -86,7 +86,7 @@ body {
 /* Timeline styles (simplified, no vertical stripe) */
 .timeline {
   margin: 2rem 0;
-  padding-left: 6rem; /* space for years */
+  padding-left: 2rem; /* space for years */
 }
 .timeline-item {
   position: relative;
@@ -101,7 +101,7 @@ body {
   color: var(--clr-timeline);
 }
 .timeline-content {
-  margin-left: 2rem; /* space between year and text */
+  margin-left: 5rem; /* space between year and text */
   line-height: 1.4;
 }
 
