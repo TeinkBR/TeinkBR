@@ -6,7 +6,7 @@
   --clr-primary: #2c3e50;
   --clr-accent: #e67e22;
   --clr-light: #ecf0f1;
-  --clr-timeline: #3498db; /* Blue stripe color */
+  --clr-timeline: #3498db; /* Blue for years */
 }
 
 /* Global reset */
@@ -83,36 +83,25 @@ body {
   margin-top: 1.5rem;
 }
 
-/* Timeline styles */
+/* Timeline styles (simplified, no vertical stripe) */
 .timeline {
-  position: relative;
   margin: 2rem 0;
-  padding-left: 5rem; /* Increased to add more spacing */
-}
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 2.5rem; /* Shifted right for better alignment */
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: var(--clr-timeline);
+  padding-left: 6rem; /* space for years */
 }
 .timeline-item {
   position: relative;
   margin-bottom: 2rem;
-  padding-left: 3rem; /* Space between line and content */
 }
 .timeline-time {
   position: absolute;
-  left: -3rem; /* Adjusted to move years further left */
+  left: 0;
   top: 0;
   font-family: var(--font-sans);
   font-weight: 700;
   color: var(--clr-timeline);
 }
 .timeline-content {
-  /* No extra left padding needed; inherent grid provides spacing */
+  margin-left: 2rem; /* space between year and text */
   line-height: 1.4;
 }
 
