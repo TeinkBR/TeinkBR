@@ -101,7 +101,7 @@ body {
   color: var(--clr-timeline);
 }
 .timeline-content {
-  margin-left: 5rem; /* space between year and text */
+  margin-left: 7rem; /* space between year and text */
   line-height: 1.4;
 }
 
